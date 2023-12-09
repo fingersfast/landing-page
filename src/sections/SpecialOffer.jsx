@@ -8,7 +8,7 @@ const SpecialOffer = () => {
       <div className="flex-1">
         <img
           src={offer}
-          alt="shoe Promotion"
+          alt="Shoe Promotion"
           width={773}
           height={687}
           className="object-contain w-full"
@@ -32,7 +32,7 @@ const SpecialOffer = () => {
         <div className="mt-11 flex flex-wrap gap-4">
           <Button label="Shop now" iconURL={arrowRight} />
           <Button
-            label="Learn more"
+            label="Learn More"
             backgroundColor="bg-white"
             borderColor="border-slate-gray"
             textColor="text-slate-gray"
