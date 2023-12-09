@@ -1,5 +1,5 @@
 import { Nav } from "./components";
-import { Hero, Footer } from "./sections";
+import { Hero, Footer, PopularProducts } from "./sections";
 
 const App = () => {
   return (
@@ -7,6 +7,9 @@ const App = () => {
       <Nav />
       <section className=" xl:padding-l wide:padding-r padding-b">
         <Hero />
+      </section>
+      <section className="padding">
+        <PopularProducts />
       </section>
 
       <section className="bg-black padding-x padding-t pb-8">
